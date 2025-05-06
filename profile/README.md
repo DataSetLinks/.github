@@ -1,3 +1,5 @@
+![Header](../assets/Github_Banner.jpg)
+
 ### 👋👋 Hello, World of Data
 
 Welcome to the official GitHub of [DataLinks](https://datalinks.com/) — a product company bringing deep, meaningful insights to your data through Semantic Layer Technology.
@@ -9,10 +11,10 @@ At the core of our platform lies a powerful idea: expressing data relationships 
 ### Automatic Linking with Entity Resolution
 
 Getting started is simple. Upload your data, and our Entity Resolution Assistant will:
- - Ingest your data
+
+- Ingest your data
 - Link it to relevant external and internal datasets
 - Resolve entities against industry-standard models
-
 
 ### Explore More
 
