@@ -1,0 +1,20 @@
+name: Zizmor
+
+on:
+  pull_request:
+    paths:
+      - '.github/**'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  zizmor:
+    uses: DataSetLinks/github-workflows/.github/workflows/zizmor.yml@fd9659dc1c227e9055080cbb969205812bc8fe2d # v1.1.0
+    secrets:
+      ZIZMOR_APP_ID: ${{ secrets.ZIZMOR_APP_ID }}
+      ZIZMOR_APP_KEY: ${{ secrets.ZIZMOR_APP_KEY }}

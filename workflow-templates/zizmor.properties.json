@@ -1,0 +1,7 @@
+{
+  "name": "Zizmor",
+  "description": "zizmor lints GitHub Actions workflows on PRs that touch .github/, using the org reusable workflow.",
+  "iconName": "zizmor",
+  "categories": ["Security"],
+  "filePatterns": ["^\\.github/workflows/.*\\.ya?ml$"]
+}
